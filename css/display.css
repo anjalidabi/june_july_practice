@@ -1,0 +1,27 @@
+.disp{
+    display: inline;
+    background-color: aquamarine;
+}
+/* .ex{
+    position:relative;
+}*/
+
+.disp1{
+    display:none;
+}
+
+.disp2{
+    display: block;
+    border: 1px dotted;
+    height: 50px;
+    background-color: antiquewhite;
+    width: 129px;
+}
+
+.disp3{
+    display: inline-block;
+}
+
+.newspaper{
+    column-count: 4;
+}

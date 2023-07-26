@@ -1,0 +1,127 @@
+.navbar{
+    background-color: yellowgreen;
+    overflow: hidden;
+
+}
+.parent-container{
+    background-image: url("nature.jpeg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+
+.anchorcss{
+    text-decoration: none;
+    font-size: 32px;
+    padding: 6px 9px;
+    color: brown;
+    float: left;
+
+}
+
+
+/*.navbar a{
+    text-decoration: none;
+    font-size: 32px;
+    padding: 6px 9px;
+    color: brown;
+}*/
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-btn{
+    font-size: 28px ;
+    color: brown;
+    background-color:rgb(12, 245, 71) ;
+    border: none;
+    position: relative;
+    top: 3px;
+    padding:7px 9px;
+}
+
+.dropdown-content{
+    position: absolute;
+    background-color: antiquewhite;
+    min-width: 137px;
+    display: none;
+    left: 294;
+    top: 53px;
+    z-index:1;
+
+}
+.dropdown-content a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 5px 5px;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+
+}.dropdown-content a:hover{
+    background-color: aqua;
+}
+
+a.anchorcss:hover{
+    background-color: aqua;
+}
+.dropdown-btn:hover{
+    background-color: aqua;
+}
+
+.form-container{
+    border: 1px solid black;
+    position: relative;
+    width: 365px;
+    padding: 13px 10px;
+    background-color: aliceblue;
+    font-size: 21px;
+    font-family: monospace;
+    height: 292px;
+    margin-left: 150px;
+    background-image: url(tiger.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.form-container:hover{
+    opacity:0.7
+}
+.submit-btn{
+    background-color: green;
+    position: relative;
+    text-align: center;
+    top: 10px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    font-size: 19px;
+    border: none;
+}
+.form-css{
+    text-align: center;
+    margin: auto;
+}
+
+.image-css{
+    position: absolute;
+    top: 94px;
+    left: 560;
+    height: 200px;
+    width: 249px;
+    opacity: 1;
+}
+.img-css:hover{
+    opacity: 0.5;
+}
+.label-css{
+  color: lawngreen;
+}
+
+
+
+
+

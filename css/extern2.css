@@ -1,0 +1,32 @@
+h2{
+    color:pink;
+}
+
+
+p{
+    color: bisque;
+}
+
+/*External css 1.Using element class selector 
+               2.Using class selector      
+               syntax .(period operator)classname {pro:val}
+        */
+
+
+
+.container {
+    color: brown;
+}  
+
+.address-container{
+    color: red;
+    background-color: black;
+    font-size: 30px;
+    width: 250px;
+    padding: 22px;
+    border: 1px solid;
+    border-radius: 41px;
+}
+
+
+

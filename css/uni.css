@@ -1,0 +1,29 @@
+/* *{
+    color: mediumslateblue;
+    font-size: 30px;
+}  */
+
+div h2:hover{
+    background-color: orchid;
+}
+
+p:hover{
+    background-color: limegreen;
+}
+
+a:active{
+    color: orange;
+}
+
+h4::first-letter{
+    color: brown;
+    font-size: 50px;
+}
+h5::first-line{
+    color: sienna;
+}
+h6::selection{
+    color: red;
+    background-color: yellow;
+}
+

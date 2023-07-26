@@ -1,0 +1,27 @@
+.navbar-container{
+    background-color: rgb(226, 43, 49);
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
+div.navbar-container a{
+    text-decoration: none;
+}
+
+/* a{
+    text-decoration: none;
+}  */
+
+div.main div{
+    color: blue;
+}
+
+/*main2{
+    color:brown;
+} */
+
+.name{
+    color: brown;
+    font-family: Arial;
+    cursor: progress;
+}
