@@ -3,18 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule } from '@angular/forms';
-import { HomeComponent } from './home/home.component';
 import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
-  declarations: [  //components,directives,pipes
-    AppComponent, HomeComponent, LandingComponent
+  declarations: [
+    AppComponent,
+    LandingComponent
   ],
-  imports: [ //modules
+  imports: [
     BrowserModule,
-    AppRoutingModule,
-    FormsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
